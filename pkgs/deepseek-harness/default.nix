@@ -37,7 +37,7 @@ buildNpmPackage (finalAttrs: {
     cp ${./package-lock.json} package-lock.json
   '';
 
-  npmDepsHash = "sha256-1CbEeK4aGKRDWv74WHxy98GmSSO7B/y9bypeI8dVyx4=";
+  npmDepsHash = "sha256-aO3nnzwcdlZbGuFEF04MuBmXKoJTjSeixk7H0SStoKU=";
 
   # Nothing to compile: lib/*.js is already built in the tarball.
   dontNpmBuild = true;
